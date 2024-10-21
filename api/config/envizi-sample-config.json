@@ -1,0 +1,29 @@
+{
+  "project_title": "Envizi Invoice Assistant",
+  "envizi": {
+    "parameters": {
+      "org_name": "IBM APAC",
+      "location" : "G5-Invoice"
+    }
+  },
+  "discovery": {
+    "access": {
+      "api_key": "xxxxxxxxxxxxxxxxxx",
+      "service_url": "https://api.us-south.discovery.watson.cloud.ibm.com/instances/a83d0a4b-a6d9-41db-972a-5b70d5fc2c91",
+      "project_id": "80c28471-f6cd-442a-81ac-80988a6a8ecd",
+      "collection_ids": "80ac4930-78e2-c5af-0000-018e5bbbe958",
+      "project_id2": "ff65820e-b932-4907-a9ef-5ef811a5b9c3",
+      "collection_ids2": "d3212c0b-a65e-7b35-0000-018f066188fd",
+      "count": "4"
+    }
+  },
+  "watson_ai": {
+    "access": {
+      "api_key": "xxxxx",
+      "api_url": "https://us-south.ml.cloud.ibm.com/ml/v1/text/generation?version=2023-05-29",
+      "project_id": "e062e78e-eba3-4dd5-a3ea-922b84955b31",
+      "model_id": "google/flan-ul2",
+      "ibmc_auth_url": "https://iam.cloud.ibm.com/identity/token"
+    }
+  }
+}
